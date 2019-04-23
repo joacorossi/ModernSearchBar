@@ -1,5 +1,5 @@
 <p>
- <img src ="https://github.com/PhilippeBoisney/ModernSearchBar/raw/master/Examples%20Url/bandeau.png"/>
+ <img src ="https://github.com/joaco/ModernSearchBar/raw/master/Examples%20Url/bandeau.png"/>
 </p>
 
 [![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat
@@ -14,13 +14,13 @@ This search bar will allow you to offer suggestions words to your users when the
 
 
 ## DEMO
-**Two ways to use this lib :** 
+**Two ways to use this lib :**
 - One with a simple array of string (Array&#60;String&#62;)
 - The other with an array of custom object (Array&#60;ModernSearchBarModel&#62;) if you want to get image of each row from an url.
 
 SIMPLE  |  ADVANCED
 :-------------------------:|:-------------------------:
-![](https://github.com/PhilippeBoisney/ModernSearchBar/raw/master/Gifs/Gif_simple_list.gif)  |  ![](https://github.com/PhilippeBoisney/ModernSearchBar/raw/master/Gifs/Gif_complex_list.gif)
+![](https://github.com/joacorossi/ModernSearchBar/raw/master/Gifs/Gif_simple_list.gif)  |  ![](https://github.com/joacorossi/ModernSearchBar/raw/master/Gifs/Gif_complex_list.gif)
 
 ## INSTALLATION
 #### CocoaPods
@@ -37,7 +37,7 @@ pod 'ModernSearchBar'
 ## USAGE
 ### 1 - Configure StoryBoard (Custom Class)
 <p align="center">
- <img src ="https://github.com/PhilippeBoisney/ModernSearchBar/raw/master/Examples%20Url/usage_1.png", height=300/>
+ <img src ="https://github.com/joacorossi/ModernSearchBar/raw/master/Examples%20Url/usage_1.png", height=300/>
 </p>
 
 ### 2 - Configure ViewController
@@ -68,8 +68,8 @@ self.modernSearchBar.setDatas(datas: suggestionList)
 
 // 2 - With custom Array<ModernSearchBarModel>
 var suggestionListWithUrl = Array<ModernSearchBarModel>()
-suggestionListWithUrl.append(ModernSearchBarModel(title: "Alpha", url: "https://github.com/PhilippeBoisney/ModernSearchBar/raw/master/Examples%20Url/exampleA.png"))
-suggestionListWithUrl.append(ModernSearchBarModel(title: "Bravo", url: "https://github.com/PhilippeBoisney/ModernSearchBar/raw/master/Examples%20Url/exampleB.png"))
+suggestionListWithUrl.append(ModernSearchBarModel(title: "Alpha", url: "https://github.com/joacorossi/ModernSearchBar/raw/master/Examples%20Url/exampleA.png"))
+suggestionListWithUrl.append(ModernSearchBarModel(title: "Bravo", url: "https://github.com/joacorossi/ModernSearchBar/raw/master/Examples%20Url/exampleB.png"))
 
 self.modernSearchBar.setDatasWithUrl(datas: suggestionListWithUrl)
 
